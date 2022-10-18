@@ -2,12 +2,24 @@
 #include <stdio.h>
 #include <time.h>
 
+/* more headers goes there */
+
+
+
+/* betty style doc for function main goes there */
+
+/*
+ * main - Checks for positive, negative and zero values
+ * Return: returns 0 on success
+ */
+
 int main(void)
 {
 	int n;
 	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/* your code goes here */
 
 	if (n > 0)
 	{
