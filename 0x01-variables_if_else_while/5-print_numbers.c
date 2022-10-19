@@ -1,4 +1,9 @@
-#include <stdio.h> 
+#include <stdio.h>
+
+/**
+  *main - prints alphabet from a to z
+  *Return: returns 0 on success
+  */
 
 int main(void)
 {
@@ -9,6 +14,6 @@ int main(void)
 		printf("%d", ch);
 	}
 	putchar('\n');
-	
+
 	return (0);
 }
