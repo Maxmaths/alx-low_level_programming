@@ -2,13 +2,13 @@
 #include <ctype.h>
 
 /**
- *main - prints alphabet from a to z
- *Return: returns 0 on success
- */
+  *main - prints alphabet from a to z
+  *Return: returns 0 on success
+  */
 
 int main(void)
 {
-	char ch;
+	 char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
