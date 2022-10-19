@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ *main - prints alphabet from a to z
+ *Return 0 on success 
+ */
 
 int main(void)
 
