@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ *main - prints alphabet from a to z
+ *Return: returns 0 on success
+ */
 
 int main(void)
 {
@@ -9,7 +13,7 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	putchar('\n);
+	putchar('\n');
 
 	return (0);
 }
