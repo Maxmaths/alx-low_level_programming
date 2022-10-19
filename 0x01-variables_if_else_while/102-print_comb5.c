@@ -17,7 +17,7 @@ int main(void)
 			{
 				putchar((num1 / 10) + 48);
 				putchar((num1 % 10) + 48);
-				putchar(',');
+				putchar(' ');
 				putchar((num2 / 10) + 48);
 				putchar((num2 % 10) + 48);
 
