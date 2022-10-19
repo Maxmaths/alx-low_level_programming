@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main -prints alphabet from a to z 
- * Return: returns 0 on success
- */
+  *main - prints alphabet from a to z
+  *Return: returns 0 on success
+  */
 
 int main(void)
 {
@@ -15,15 +16,16 @@ int main(void)
 			putchar(num1 + '0');
 			putchar(num2 + '0');
 			/*
-			 * This if statement is added so when it gets to the last number i.e 89 .
-			 * it dosen't add a ',' and ' '
+			 *This if statement is added so when it gets to the last number i.e 89 .
+			 *it doesn't add a ',' and ' '
 			 */
 			if (num1 == 8 && num2 == 9)
 				continue;
 			putchar(',');
-			putchar(',');
+			putchar(' ');
+
 		}
-	}
+			}
 	putchar('\n');
 	return (0);
-
+}
