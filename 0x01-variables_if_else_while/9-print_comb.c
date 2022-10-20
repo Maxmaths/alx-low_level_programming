@@ -13,7 +13,7 @@ int main(void)
 	{
 		if (ch <= 9)
 		{
-			putchar(ch = '0');
+			putchar(ch + '0');
 		}
 		if (ch < 9)
 		{
