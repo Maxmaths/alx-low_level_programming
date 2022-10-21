@@ -2,7 +2,7 @@
 
 /**
   *print_alphabet - prints the alphabet, in lowercase, followed by a new line.
-  *Return: a-z 
+  *Return: a-z
   */
 
 void print_alphabet(void)
@@ -17,9 +17,9 @@ void print_alphabet(void)
 }
 
 /**
- *print_alphabet_x10 - prints the alphabets 10times with a new line
- *Return: a-z*10
- */
+  *print_alphabet_x10 - prints the alphabets 10times with a new line
+  *Return: a-z*10
+  */
 
 void print_alphabet_x10(void)
 {
