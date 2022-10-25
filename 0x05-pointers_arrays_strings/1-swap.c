@@ -3,7 +3,7 @@
 /**
  * swap_int - Write a function that swaps the value of two integers
  * @a: an int
- * @b; an int
+ * @b: an int
  */
 
 void swap_int(int *a, int *b)
